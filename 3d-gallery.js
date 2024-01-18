@@ -1,4 +1,3 @@
-<script>
 $("[carousel='component']").each(function () {
   let componentEl = $(this);
   let wrapEl = componentEl.find("[carousel='wrap']");
@@ -78,4 +77,3 @@ $("[carousel='component']").each(function () {
     }
   });
 });
-</script>
